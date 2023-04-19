@@ -1,0 +1,16 @@
+.container{
+    display:flex;
+    width: 100%;
+    background-color: red;
+}
+.icon{
+    width: 100px;
+}
+.svg{
+    width: 20px;
+}
+.customer_name{
+    margin-top: 2rem;
+    color:black;
+    font-size: 25px;
+}
