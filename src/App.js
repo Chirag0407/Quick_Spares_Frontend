@@ -1,9 +1,24 @@
 import Header from './components/Header/Header';
-
+import { BrowserRouter as Router, Route,Routes } from 'react-router-dom';
+import Products from './components/Products-Section/Products'
+import Footer from './components/Footer/Footer';
+import Info from './components/Info/Info';
 function App() {
   return (
     <div className="App">
-      <Header/>
+      <Router>
+        <Header/>
+        <Products/>
+        <Info/>
+        <Footer/>
+        
+        <Routes>
+          
+        
+        </Routes>
+      </Router>
+      
+      
     </div>
   );
 }

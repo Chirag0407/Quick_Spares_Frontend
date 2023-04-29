@@ -1,7 +1,12 @@
 .container{
-    display:flex;
-    width: 100%;
-    background-color: red;
+    display:grid;
+    grid-template-columns: 1fr 0.5fr;
+    align-items: center;
+    background-color: rgb(241, 72, 72);
+}
+.name-icon-details{
+    display: flex;
+    align-items: center;
 }
 .icon{
     width: 100px;
@@ -10,7 +15,27 @@
     width: 20px;
 }
 .customer_name{
-    margin-top: 2rem;
     color:black;
-    font-size: 25px;
+    font-size:4rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+}
+a{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    font-size: 3rem;
+    color: black;
+    padding-left: 1rem;
+}
+li{
+    
+}
+
+.active {
+    color: var(--white);
+}
+.links_container{
+   display: flex;
+   gap: 1rem;
+   
 }
