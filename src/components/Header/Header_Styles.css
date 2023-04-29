@@ -32,10 +32,10 @@ li{
 }
 
 .active {
-    color: var(--white);
+    
 }
 .links_container{
    display: flex;
    gap: 1rem;
-   
+   padding-right: 2rem;
 }

@@ -17,14 +17,16 @@ import {Navigation} from 'swiper'
 
 const Product_css=styled.div`
     .product-container{
+        
         margin-top: 3rem;
         display:flex;
         gap: 3rem;
         flex-wrap: wrap;
-        justify-content: center;
+        justify-content:center;
         cursor: pointer;
             
         .swiper{
+            /* width: 80%; */
             padding: 1rem 1rem ;
             .swiper-wrapper{
                .swiper-slide{
@@ -76,7 +78,7 @@ const Products = () => {
     <Product_css>
       <div className="product-container">
         <Swiper
-            slidesPerView={6}
+            slidesPerView={5}
             navigation={true}
             modules={[Navigation]}
             className="mySwiper"
